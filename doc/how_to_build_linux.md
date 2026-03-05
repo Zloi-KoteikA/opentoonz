@@ -17,12 +17,15 @@ Building OpenToonz from source requires the following dependencies:
 - OpenCV 3.2 or newer
 
 
-### Installing Dependencies Gentoo
+### Installing Dependencies on Gentoo
 ```
 emerge --ask dev-vcs/git sys-devel/gcc llvm-core/clang dev-build/cmake dev-ruby/pkg-config
 ```
 ```
 emerge --ask dev-qt/qtcore dev-qt/qtsvg dev-qt/qtscript dev-qt/qttools dev-qt/qtgui dev-qt/qtwidgets dev-qt/qtopengl dev-qt/qtmultimedia dev-qt/qtserialport
+```
+```
+emerge --ask dev-libs/boost media-libs/libpng media-libs/libjpeg-turbo media-libs/freetype media-libs/glew media-libs/freeglut sci-libs/superlu
 ```
 
 ### Installing Dependencies on Debian / Ubuntu
