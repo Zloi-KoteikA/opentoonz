@@ -27,6 +27,9 @@ emerge --ask dev-qt/qtcore dev-qt/qtsvg dev-qt/qtscript dev-qt/qttools dev-qt/qt
 ```
 emerge --ask dev-libs/boost media-libs/libpng media-libs/libjpeg-turbo media-libs/freetype media-libs/glew media-libs/freeglut sci-libs/superlu
 ```
+```
+emerge --ask media-libs/libmypaint
+```
 
 ### Installing Dependencies on Debian / Ubuntu
 
