@@ -16,6 +16,15 @@ Building OpenToonz from source requires the following dependencies:
 - Jpeg-Turbo (1.4 or newer)
 - OpenCV 3.2 or newer
 
+
+### Installing Dependencies Gentoo
+```
+emerge --ask dev-vcs/git sys-devel/gcc llvm-core/clang dev-build/cmake dev-ruby/pkg-config
+```
+```
+emerge --ask dev-qt/qtcore dev-qt/qtsvg dev-qt/qtscript dev-qt/qttools dev-qt/qtgui dev-qt/qtwidgets dev-qt/qtopengl dev-qt/qtmultimedia dev-qt/qtserialport
+```
+
 ### Installing Dependencies on Debian / Ubuntu
 
 ```
